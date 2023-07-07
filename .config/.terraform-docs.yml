@@ -14,9 +14,10 @@ sections:
     - modules
 
 content: |-
-  # <Cloud> <Main resource> Terraform module
-  A Terraform module which configures your <Cloud> <Main resource>. <Relevant docs>
   {{ .Header }}
+
+  # AWS IAM Access Analyzer Terraform module
+  A Terraform module which configures your AWS IAM Access Analyzer. Read [this](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html) page for more information.
 
   ## Example
   ```hcl
