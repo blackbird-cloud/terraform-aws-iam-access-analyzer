@@ -1,7 +1,8 @@
-[![blackbird-logo](https://raw.githubusercontent.com/blackbird-cloud/terraform-module-template/main/.config/logo_simple.png)](https://www.blackbird.cloud)
+<!-- BEGIN_TF_DOCS -->
+# Terraform Aws Iam Access Analyzer Module
+A Terraform module to help setup AWS IAM Access Analyzer for your AWS Organization
 
-# AWS IAM Access Analyzer Terraform module
-A Terraform module which configures your AWS IAM Access Analyzer. Read [this](https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html) page for more information.
+[![blackbird-logo](https://raw.githubusercontent.com/blackbird-cloud/terraform-module-template/main/.config/logo_simple.png)](https://blackbird.cloud)
 
 ## Example
 ```hcl
@@ -28,7 +29,7 @@ module "accessanalyzer_analyzer" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.7.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 5 |
 
 ## Resources
 
@@ -58,4 +59,5 @@ Checkout our other :point\_right: [terraform modules](https://registry.terraform
 
 ## Copyright
 
-Copyright © 2017-2023 [Blackbird Cloud](https://www.blackbird.cloud)
+Copyright © 2017-2024 [Blackbird Cloud](https://blackbird.cloud)
+<!-- END_TF_DOCS -->
